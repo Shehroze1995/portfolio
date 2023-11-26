@@ -23,3 +23,19 @@
 .gridCols {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: var(--darkColor);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--lightBg);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #888;
+}
