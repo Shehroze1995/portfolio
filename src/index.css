@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkBg: #1a1917;
+  --lightBg: #e5e4df;
+  --lightColor: #e5e4df;
+  --darkColor: #1a1917;
+  --clashFont: "Clash Grotesk", sans-serif;
+}
+
+.clashFont {
+  font-family: var(--clashFont);
+}
+
+.showBottomNav {
+  opacity: 1;
+  bottom: 2rem;
+  visibility: visible;
+}
+
+.gridCols {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
